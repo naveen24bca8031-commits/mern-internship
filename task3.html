@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ABC Training Institute</title>
+    <style>
+        /* Basic beginner styling just to match the dark look in the image */
+        body {
+            background-color: #2c3e50;
+            color: white;
+            font-family: sans-serif;
+            padding: 20px;
+        }
+        table, th, td {
+            border: 1px solid white;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>🗂️ ABC Training Institute</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#courses">Courses</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#register">Register</a>
+        </nav>
+    </header>
+
+    <hr> <section id="home">
+        <h1>Welcome to ABC Training Institute</h1>
+        <p>Empowering Your Future with Quality Education</p>
+        
+        <h3>Learn to Code Video</h3>
+        <video src="#" controls width="320" height="240">
+            Your browser does not support the video tag.
+        </video>
+
+        <h3>Listen to Audio Guide</h3>
+        <audio src="#" controls>
+            Your browser does not support the audio tag.
+        </audio>
+    </section>
+
+    <br><br><hr><br>
+
+    <section id="courses">
+        <h1>Our Courses</h1>
+        
+        <h3>Web Development:</h3>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>React JS</li>
+        </ul>
+
+        <h3>Programming Languages:</h3>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+        </ul>
+    </section>
+
+    <br><br><hr><br>
+
+    <section id="schedule">
+        <h1>Course Schedule</h1>
+        
+        <table>
+            <thead>
+                <tr style="background-color: #c0392b;">
+                    <th>Course</th>
+                    <th>Trainer</th>
+                    <th>Duration</th>
+                    <th>Mode</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML & CSS</td>
+                    <td>Ashoka</td>
+                    <td>2 Weeks</td>
+                    <td>Online</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Ms. Rahul</td>
+                    <td>4 Weeks</td>
+                    <td>Offline</td>
+                </tr>
+                <tr>
+                    <td>React JS</td>
+                    <td>Mr. Anita</td>
+                    <td>3 Weeks</td>
+                    <td>Online</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <br><br><hr><br>
+
+    <section id="register">
+        <h1>Student Registration</h1>
+        
+        <form>
+            <p>Name:</p>
+            <input type="text" placeholder="Enter your name" required>
+
+            <p>Email:</p>
+            <input type="email" placeholder="Enter your email" required>
+
+            <p>Phone:</p>
+            <input type="tel" placeholder="Enter phone number">
+
+            <p>Select Course:</p>
+            <select>
+                <option>HTML & CSS</option>
+                <option>Java</option>
+                <option>React JS</option>
+            </select>
+
+            <p>Gender:</p>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+
+            <p>Message:</p>
+            <textarea rows="4" cols="30" placeholder="Type your message here..."></textarea>
+
+            <br><br>
+            <button type="submit" style="background-color: #c0392b; color: white; padding: 10px 20px;">Register Now</button>
+        </form>
+    </section>
+
+    <br><br>
+</body>
+</html>
